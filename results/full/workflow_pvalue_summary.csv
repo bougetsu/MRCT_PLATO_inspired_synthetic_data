@@ -1,0 +1,4 @@
+"step","question","test","statistic_type","statistic","p_value"
+"Q1","phi ~ Region","coin independence test","maximum",-3.05142907629831,0.00227754848045521
+"Q2","Region ~ X","coin independence test","maximum",-54.286163597154,0
+"Q3","phi ~ X","coin independence test","maximum",3.72869958608549,0.00353565837880476

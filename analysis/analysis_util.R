@@ -29,7 +29,7 @@
 ##   Combines the p-values and maximum statistics from:
 ##     - phi versus Region
 ##     - Region versus X
-##     - phi versus Region plus X
+##     - phi versus X
 ##
 ## plot_variable_importance()
 ##   Produces a horizontal variable-importance bar plot.
@@ -413,7 +413,7 @@ assess_regional_imbalance <- function(
 #' Combines the three global tests from:
 #'   1. phi versus Region.
 #'   2. Region versus X.
-#'   3. phi versus Region plus X.
+#'   3. phi versus X.
 #'
 #' The Cox consistency analysis is intentionally excluded because it reproduces
 #' published PLATO results and is not one of these three WATCH global tests.
@@ -510,7 +510,7 @@ build_workflow_pvalue_summary <- function(
   }
   
   step4_row <- data.frame(
-    question = "phi ~ Region + X",
+    question = "phi ~ X",
     test = "coin independence test",
     statistic_type = "maximum",
     statistic = step4_statistic,
