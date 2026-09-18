@@ -1,0 +1,27 @@
+Please create a synthetic data-set in csv format with individual patient data for the PLATO trial
+
+Information sources
+* info/Wallentin.pdf - Primary study publication
+* info/Mahaffey.pdf - Publication assessing regional heterogeneity in PLATO
+* info/MRCT_manuscript.tex and info/bibliography.bib - manuscript with a proposal for a workflow
+  assessing and potentially explaining regional heterogeneity
+
+
+On this synthetica data-set we would like to perform a regional heterogeneity assessment as outlined in
+the MRCT_manuscript.tex document. We want to explore the treatment effect in the USA region versus the
+rest of the world using this methodology on the synthetic data.
+
+When creating the synthetic data generally stay as close to the published summary data as possible, but please make sure the following summary statistics are matched
+- sample size per arm (Table 1 in Wallentin.pdf)
+- Cumulative incidence rate over time per treatment arm (as in Figure 1 in Wallentin.pdf)
+- hazard ratio of the primary analysis (Caption of Figure 1 in Wallentin.pdf)
+- follow-up time/censoring distribution for primary analysis
+- sample size per arm within region (US vs ROW) and maintenance aspirin dose group (Figure 3 in Mahaffey.pdf)
+- hazard ratio for the analyses within region (US vs ROW) and maintenance aspirin dose group (Figure 3 in Mahaffey.pdf)
+- In addition to maintenance aspirin dose, include further covariates but only those that are both in Table 1 and Figure 2A of Mahaffey.pdf,
+  make sure the distribution across US and ROW stays intact as in Table 1
+- The synthetic data should approximately reproduce approximately the univariate interaction analyses in Figure 2A im Mahaffey.pdf
+
+Please provide R code to create the synthetic data and the data in csv format.
+
+Also provide an R file that compares the summaries extracted from the information sources and the generated synthetic data.
