@@ -1,5 +1,6 @@
 # PLATO-Inspired Synthetic Data for Multi-Regional Clinical Trial Research
 
+
 ## Overview
 
 This repository provides a fully synthetic individual-level multi-regional clinical trial (MRCT) dataset inspired by the PLATO trial (NCT00391872) and calibrated to selected published aggregate summaries. The dataset is intended for methodological research, software development, and demonstration of statistical methods for MRCTs, particularly methods for investigating regional treatment-effect heterogeneity.
