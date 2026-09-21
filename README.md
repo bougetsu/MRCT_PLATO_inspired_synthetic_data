@@ -1,4 +1,4 @@
-# PLATO-like Synthetic Data for Multi-Regional Clinical Trial Research
+# PLATO-inspried Synthetic Data for Multi-Regional Clinical Trial Research
 
 ## Overview
 
